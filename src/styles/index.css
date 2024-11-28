@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Venture Handmade';
+  src: url(/fonts/Venture-Handmade.otf);
+}
+
+@font-face {
+  font-family: 'UTM Bebas';
+  src: url(/fonts/UTM-Bebas.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(/fonts/Roboto.ttf);
+}
+
+@font-face {
+  font-family: 'Beiruti';
+  src: url(/fonts/Beiruti.ttf);
+}
+
+@property --black-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #333333;
+}
+
+@property --white-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #f5f7f8;
+}
+
+@property --pri-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #3559e0;
+}
+
+@property --sub-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #0e46a3;
+}
+
+@property --yellow-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #f4ce14;
+}
+
+@property --gray-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #c7c8cc;
+}
+
+@property --grey-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: rgba(199, 200, 204, 0.5);
+}
+
+@property --bleck-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: rgba(51, 51, 51, 0.5);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
